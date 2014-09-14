@@ -3,44 +3,45 @@
 <!DOCTYPE html>
 <html>
   <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width initial-scale=1" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-      <meta name="description" content="{{ site.description }}">
-      <script src="//use.typekit.net/clo7nwe.js"></script>
-      <script>try{Typekit.load();}catch(e){}</script>
-      <link rel="stylesheet" href="css/main.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <script src="//use.typekit.net/clo7nwe.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta name="description" content="{{ site.description }}">
+    <meta property="og:image" content="http://www.dusko.sk/images/facebook-share.png">
   </head>
   <body>
     <div class="page">
       {% for section in site.data.homepage %}
         <section id="{{ section.id }}" class="layout-{{ section.layout }}" style="{% if section.background %}background-color: #{{ section.background }};{% endif %}">
+          {% if section.image %}<img class="artwork{% if section.image.centered %} centered{% endif %}" src="http://resources.mockuuups.com/dusko/image/upload/{{ section.image.src }}">{% endif %}
           <div class="center">
+            {% if section.header %}<h3>{{ section.header }}</h3>{% endif %}
+            {% if section.content %}<article>{{ section.content }}</article>{% endif %}
+
             {% if section.layout == 'footer' %}
-              <article>{{ section.content }}</article>
               <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-              <ul>
+            {% endif %}
+
+            {% if section.links %}
+              <ul class="links">
                 {% for link in section.links %}
                   <li><a href="{{ link.link }}">{{ link.text }}</a></li>
                 {% endfor %}
               </ul>
-            {% elsif section.layout == 'links' %}
-              <h3>{{ section.header }}</h3>
-              <ul>
-                {% for link in section.links %}
-                  <li><a href="{{ link.link }}">{{ link.text }}</a></li>
-                {% endfor %}
-              </ul>
-            {% else %}
-              <article>
-                {{ section.content }}
-              </article>
-              {% if section.button %}
-                <a href="{{ section.button.link }}" class="button">{{ section.button.text }}</a>
-              {% endif %}
+            {% endif %}
+
+            {% if section.button %}
+              <a href="{{ section.button.link }}" class="button">{{ section.button.text }}</a>
             {% endif %}
           </div>
+          {% if section.layout == 'header' %}
+            <a class="scroll"><svg viewBox="96 160 320 192" xmlns="http://www.w3.org/2000/svg"><path fill="#fff" d="M396.6 160l19.4 20.7-160 171.3-160-171.3 19.3-20.7 140.7 150.5z"></path></svg></a>
+          {% endif %}
         </section>
       {% endfor %}
     </div>

@@ -1,6 +1,8 @@
 - id: top
   layout: header
   background: 2f2d2e
+  image:
+    src: dusko_ilfn9d
   content: >
     <h1>Hello, my name is Tomas Jasovsky.<br>
     I’m a Product Designer looking for a fish to fry!</h1>
@@ -9,6 +11,8 @@
 - id: techbeach
   layout: img-on-right
   background: f2b22f
+  image:
+    src: techbeach_1_tcbryq
   content: >
     First stop, <a href="http://en.wikipedia.org/wiki/Gran_Canaria">Gran Canaria</a>.<br>
     I get to surf and work<br>
@@ -20,6 +24,8 @@
 - id: mockuuups
   layout: img-on-right
   background: 40b9ec
+  image:
+    src: mockuuups_mpfd7h
   content: >
     Recently I’ve been spending<br>
     a lot of my free time making<br>
@@ -32,6 +38,9 @@
 - id: madeindays
   layout: img-on-left
   background: ccb997
+  image:
+    src: madeindays_ihqqbf
+    centered: true
   content: >
     Just a few months ago my <a href="http://en.wikipedia.org/wiki/Pumpkin">pumpkin</a><br>
     and I launched our own brand<br>
@@ -43,6 +52,9 @@
 - id: instagram
   layout: img-on-right
   background: 36395c
+  image:
+    src: instagram_qilsb4
+    centered: true
   content: >
     It’s been one year since<br>
     I skyrocketed my freelance<br>
@@ -54,6 +66,8 @@
 - id: postheads
   layout: img-on-right
   background: b5cae5
+  image:
+    src: postheads_bck32h
   content: >
     Before all of that, I Co-founded<br>
     and designed for a social media<br>
