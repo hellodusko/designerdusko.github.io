@@ -60,6 +60,6 @@ if (h1) {
 var arrow = document.querySelector('.layout-header .scroll')
 if (arrow) {
   arrow.addEventListener('click', function () {
-    animatedScrollTo(document.body, window.innerHeight, 750)
+    animatedScrollTo(document.body, window.innerHeight, 400)
   })
 }
