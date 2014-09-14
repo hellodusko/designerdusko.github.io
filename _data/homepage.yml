@@ -1,6 +1,6 @@
 - id: top
   layout: header
-  background: 2f2d2e
+  background: bada55
   content: >
     <h1>Hello, my name is Tomas Jasovsky.<br>
     I’m a Product Designer looking for a fish to fry!</h1>
