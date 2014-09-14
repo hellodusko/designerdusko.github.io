@@ -14,8 +14,8 @@
   image:
     src: techbeach_1_tcbryq
   content: >
-    First stop, <a href="http://en.wikipedia.org/wiki/Gran_Canaria">Gran Canaria</a>.<br>
-    I get to surf and work<br>
+    First stop, <a href="http://en.wikipedia.org/wiki/Gran_Canaria">Gran Canaria</a>.
+    I get to surf and work
     on this amazing project.
   button:
     text: Tech Beach Website
@@ -27,9 +27,9 @@
   image:
     src: mockuuups_mpfd7h
   content: >
-    Recently I’ve been spending<br>
-    a lot of my free time making<br>
-    super&nbsp;sonic <a href="http://www.mockuuups.com/">Mockuuups</a>.<br>
+    Recently I’ve been spending
+    a lot of my free time making
+    super&nbsp;sonic <a href="http://www.mockuuups.com/">Mockuuups</a>.
     You know, design for designers.
   button:
     text: Mockuuups.com
@@ -42,8 +42,8 @@
     src: madeindays_ihqqbf
     centered: true
   content: >
-    Just a few months ago my <a href="http://en.wikipedia.org/wiki/Pumpkin">pumpkin</a><br>
-    and I launched our own brand<br>
+    Just a few months ago my <a href="http://en.wikipedia.org/wiki/Pumpkin">pumpkin</a>
+    and I launched our own brand
     of leather goods.
   button:
     text: Madeindays.com
@@ -56,8 +56,8 @@
     src: instagram_qilsb4
     centered: true
   content: >
-    It’s been one year since<br>
-    I skyrocketed my freelance<br>
+    It’s been one year since
+    I skyrocketed my freelance
     journey with this bad boy.
   button:
     text: Behance Case Study
@@ -69,9 +69,9 @@
   image:
     src: postheads_bck32h
   content: >
-    Before all of that, I Co-founded<br>
-    and designed for a social media<br>
-    startup called PostHeads.<br>
+    Before all of that, I Co-founded
+    and designed for a social media
+    startup called PostHeads.
     Two years of my life.
   button:
     text: Design Case Study
