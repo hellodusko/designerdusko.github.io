@@ -13,8 +13,13 @@
     <link rel="shortcut icon" href="favicon.ico">
     <meta name="description" content="{{ site.description }}">
     <meta property="og:image" content="http://www.dusko.sk/images/facebook-share.png">
+    <script>document.documentElement.classList.add('js')</script>
   </head>
   <body>
+    <header>
+      <h1>Tomas Jasovsky</h1>
+      <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+    </header>
     <div class="page">
       {% for section in site.data.homepage %}
         <section id="{{ section.id }}" class="layout-{{ section.layout }}" style="{% if section.background %}background-color: #{{ section.background }};{% endif %}">
@@ -45,5 +50,6 @@
         </section>
       {% endfor %}
     </div>
+    <script src="js/app.js"></script>
   </body>
 </html>
