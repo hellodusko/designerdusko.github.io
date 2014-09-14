@@ -42,7 +42,7 @@
     src: madeindays_ihqqbf
     centered: true
   content: >
-    Just a few months ago my <a href="http://en.wikipedia.org/wiki/Pumpkin">pumpkin</a>
+    Just a few months ago my <a href="http://www.marinaladuda.com/">pumpkin</a>
     and I launched our own brand
     of leather goods.
   button:
@@ -98,10 +98,10 @@
     Absolut Vodka, GE Money Bank, Škoda & more...
   links:
     - text: Dribbble
-      link: todo
+      link: http://www.dribbble.com/Dusko
     - text: Behance
-      link: todo
+      link: https://www.behance.net/jasovsky
     - text: Linkedin
-      link: todo
+      link: http://www.linkedin.com/tomasjasovsky
     - text: Twitter
-      link: todo
+      link: http://www.twitter.com/designerdusko
