@@ -1,0 +1,8 @@
+title: Tomas Jasovsky
+email: dusko@dusko.sk
+description: halomea
+baseurl: ""
+url: "http://yourdomain.com"
+
+# build settings
+markdown: kramdown

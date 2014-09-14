@@ -1,0 +1,48 @@
+---
+---
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width initial-scale=1" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+      <meta name="description" content="{{ site.description }}">
+      <script src="//use.typekit.net/clo7nwe.js"></script>
+      <script>try{Typekit.load();}catch(e){}</script>
+      <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div class="page">
+      {% for section in site.data.homepage %}
+        <section id="{{ section.id }}" class="layout-{{ section.layout }}" style="{% if section.background %}background-color: #{{ section.background }};{% endif %}">
+          <div class="center">
+            {% if section.layout == 'footer' %}
+              <article>{{ section.content }}</article>
+              <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+              <ul>
+                {% for link in section.links %}
+                  <li><a href="{{ link.link }}">{{ link.text }}</a></li>
+                {% endfor %}
+              </ul>
+            {% elsif section.layout == 'links' %}
+              <h3>{{ section.header }}</h3>
+              <ul>
+                {% for link in section.links %}
+                  <li><a href="{{ link.link }}">{{ link.text }}</a></li>
+                {% endfor %}
+              </ul>
+            {% else %}
+              <article>
+                {{ section.content }}
+              </article>
+              {% if section.button %}
+                <a href="{{ section.button.link }}" class="button">{{ section.button.text }}</a>
+              {% endif %}
+            {% endif %}
+          </div>
+        </section>
+      {% endfor %}
+    </div>
+  </body>
+</html>

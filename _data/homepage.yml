@@ -1,0 +1,93 @@
+- id: top
+  layout: header
+  background: 2f2d2e
+  content: >
+    <h1>Hello, my name is Tomas Jasovsky.<br>
+    I’m a Product Designer looking for a fish to fry!</h1>
+    <h2>Currently <del>living in Prague</del> traveling the world.</h2>
+
+- id: techbeach
+  layout: img-on-right
+  background: f2b22f
+  content: >
+    First stop, <a href="http://en.wikipedia.org/wiki/Gran_Canaria">Gran Canaria</a>.<br>
+    I get to surf and work<br>
+    on this amazing project.
+  button:
+    text: Tech Beach Website
+    link: http://techbitch.com/
+
+- id: mockuuups
+  layout: img-on-right
+  background: 40b9ec
+  content: >
+    Recently I’ve been spending<br>
+    a lot of my free time making<br>
+    super&nbsp;sonic <a href="http://www.mockuuups.com/">Mockuuups</a>.<br>
+    You know, design for designers.
+  button:
+    text: Mockuuups.com
+    link: http://www.mockuuups.com/
+
+- id: madeindays
+  layout: img-on-left
+  background: ccb997
+  content: >
+    Just a few months ago my <a href="http://en.wikipedia.org/wiki/Pumpkin">pumpkin</a><br>
+    and I launched our own brand<br>
+    of leather goods.
+  button:
+    text: Madeindays.com
+    link: http://www.madeindays.com/
+
+- id: instagram
+  layout: img-on-right
+  background: 36395c
+  content: >
+    It’s been one year since<br>
+    I skyrocketed my freelance<br>
+    journey with this bad boy.
+  button:
+    text: Behance Case Study
+    link: https://www.behance.net/gallery/11780927/Instagram-A-business-opportunity
+
+- id: postheads
+  layout: img-on-right
+  background: b5cae5
+  content: >
+    Before all of that, I Co-founded<br>
+    and designed for a social media<br>
+    startup called PostHeads.<br>
+    Two years of my life.
+  button:
+    text: Design Case Study
+    link: https://www.postheads.com/design/
+
+- id: links
+  layout: links
+  background: cf5d46
+  header: Sometimes I write stuff
+  links:
+    - text: Catching Big Fish to Fry
+      link: todo
+    - text: Everybody Needs a Unicorn
+      link: todo
+    - text: 5 Mistakes in Design Process While Building Large Scale Products
+      link: todo
+
+- id: footer
+  layout: footer
+  background: 1f1e1f
+  content: >
+    Along the way I’ve had the privilege of working with
+    companies such as NYU Stern, BMW, Jameson Whiskey,
+    Absolut Vodka, GE Money Bank, Škoda & more...
+  links:
+    - text: Dribbble
+      link: todo
+    - text: Behance
+      link: todo
+    - text: Linkedin
+      link: todo
+    - text: Twitter
+      link: todo
