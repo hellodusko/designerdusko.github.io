@@ -83,11 +83,11 @@
   header: Sometimes I write stuff
   links:
     - text: Catching Big Fish to Fry
-      link: todo
+      link: https://medium.com/@designerdusko/catching-big-fish-to-fry-bc3c2e6bbae6
     - text: Everybody Needs a Unicorn
-      link: todo
+      link: https://medium.com/@designerdusko/everybody-needs-a-unicorn-94cc5bd63b6f
     - text: 5 Mistakes in Design Process While Building Large Scale Products
-      link: todo
+      link: http://despreneur.com/5-mistakes-in-design-process-while-building-large-scale-products/
 
 - id: footer
   layout: footer
@@ -102,6 +102,6 @@
     - text: Behance
       link: https://www.behance.net/jasovsky
     - text: Linkedin
-      link: http://www.linkedin.com/tomasjasovsky
+      link: https://www.linkedin.com/in/tomasjasovsky
     - text: Twitter
       link: http://www.twitter.com/designerdusko
