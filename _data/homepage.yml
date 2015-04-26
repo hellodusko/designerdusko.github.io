@@ -5,14 +5,14 @@
     src: duskonew_hk2fsg
   content: >
     <h1>Hello, my name is Tomas Jasovsky.<br><br>
-    I’m a nomadic designer, living and working <br>
+    I’m a <a href="https://nomadlist.com/stories/nomadic-couple-dream-job">nomadic</a> designer, living and working <br>
     from wherever the wind takes me.</h1>
 
-- id: madeindays
+- id: pond5
   layout: img-on-left
   background: 257cd0
   image:
-    src: pond5logo_jr9u6g
+    src: pond5logotype_sudvi7
     centered: true
   content: >
     Working remotely as a Product Designer
@@ -54,7 +54,7 @@
   layout: img-on-left
   background: ccb997
   image:
-    src: pond5logotype_sudvi7
+    src: madeindays_ihqqbf
     centered: true
   content: >
     Just a few months ago my <a href="http://www.marinaladuda.com/">pumpkin</a>
