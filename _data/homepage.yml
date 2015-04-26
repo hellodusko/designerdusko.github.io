@@ -5,8 +5,7 @@
     src: duskonew_hk2fsg
   content: >
     <h1>Hello, my name is Tomas Jasovsky.<br>
-    I’m a Product Designer looking for a fish to fry!</h1>
-    <h2>Currently <del>living in Prague</del> traveling the world.</h2>
+    I’m a nomadic designer, living and working from wherever the wind takes me.</h1>
 
 - id: techbeach
   layout: img-on-right
