@@ -8,6 +8,20 @@
     I’m a nomadic designer, living and working <br>
     from wherever the wind takes me.</h1>
 
+- id: pond5
+  layout: img-on-left
+  background: 257cd0
+  image:
+    src: pond5logo_vwhmqq
+  content: >
+    Working remotely as a Product Designer
+    for the world’s most vibrant 
+    marketplace for creativity.
+    
+  button:
+    text: Pond5
+    link: http://www.pond5.com/
+
 - id: techbeach
   layout: img-on-right
   background: f2b22f
