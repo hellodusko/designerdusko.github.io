@@ -2,7 +2,7 @@
   layout: header
   background: 2f2d2e
   image:
-    src: dusko_ilfn9d
+    src: http://madeindays.com/files/duskonew.png
   content: >
     <h1>Hello, my name is Tomas Jasovsky.<br>
     I’m a Product Designer looking for a fish to fry!</h1>
