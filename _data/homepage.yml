@@ -12,14 +12,14 @@
   layout: img-on-left
   background: 257cd0
   image:
-    src: pond5_cvhgmn
+    src: pond5_afdvb2
   content: >
     Working remotely as a Product Designer
     for the world’s most vibrant 
     marketplace for creativity.
     
   button:
-    text: Pond5
+    text: Pond5.com
     link: http://www.pond5.com/
 
 - id: techbeach
