@@ -13,6 +13,7 @@
   background: 257cd0
   image:
     src: pond5_afdvb2
+    centered: true
   content: >
     Working remotely as a Product Designer
     for the world’s most vibrant 
