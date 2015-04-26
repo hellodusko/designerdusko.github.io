@@ -29,7 +29,7 @@
   image:
     src: techbeach_1_tcbryq
   content: >
-    First stop, <a href="http://en.wikipedia.org/wiki/Gran_Canaria">Gran Canaria</a>.
+    Travel journey started at <a href="http://en.wikipedia.org/wiki/Gran_Canaria">Gran Canaria</a>.
     I get to surf and work
     on this amazing project.
   button:
@@ -38,13 +38,13 @@
 
 - id: mockuuups
   layout: img-on-right
-  background: a0d01f
+  background: 2dd2b5
   image:
     src: mockuuups_mpfd7h
   content: >
-    Recently I’ve been spending
-    a lot of my free time making
-    super&nbsp;sonic <a href="http://www.mockuuups.com/">Mockuuups</a>.
+    It's more then a year now
+    for me and my buddies 
+    running super&nbsp;sonic <a href="http://www.mockuuups.com/">Mockuuups</a>.
     You know, design for designers.
   button:
     text: Mockuuups.com
@@ -57,8 +57,8 @@
     src: madeindays_ihqqbf
     centered: true
   content: >
-    Just a few months ago my <a href="http://www.marinaladuda.com/">pumpkin</a>
-    and I launched our own brand
+    Me and my <a href="http://www.marinaladuda.com/">pumpkin</a>
+    have our own little brand
     of leather goods.
   button:
     text: Madeindays.com
@@ -71,7 +71,7 @@
     src: instagram_qilsb4
     centered: true
   content: >
-    It’s been one year since
+    It’s been two years since
     I skyrocketed my freelance
     journey with this bad boy.
   button:
@@ -97,6 +97,8 @@
   background: cf5d46
   header: Sometimes I write stuff
   links:
+    - text: Our Travel Couple Blog 
+      link: http://www.madeinmoments.com/
     - text: Catching Big Fish to Fry
       link: https://medium.com/@designerdusko/catching-big-fish-to-fry-bc3c2e6bbae6
     - text: Everybody Needs a Unicorn
