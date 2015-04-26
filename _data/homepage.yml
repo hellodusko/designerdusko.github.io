@@ -5,7 +5,8 @@
     src: duskonew_hk2fsg
   content: >
     <h1>Hello, my name is Tomas Jasovsky.<br>
-    I’m a nomadic designer, living and working from wherever the wind takes me.</h1>
+    I’m a nomadic designer, living and working <br>
+    from wherever the wind takes me.</h1>
 
 - id: techbeach
   layout: img-on-right
