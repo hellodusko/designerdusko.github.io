@@ -79,7 +79,7 @@
     link: https://www.behance.net/gallery/11780927/Instagram-A-business-opportunity
 
 - id: postheads
-  layout: img-on-right
+  layout: header
   background: b5cae5
   image:
     src: postheads_bck32h
